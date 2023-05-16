@@ -1,0 +1,124 @@
+html {
+    background-color: #1b2b5a;
+   
+}
+
+@font-face {
+    font-family: HennyPenny;
+    src: url(Henny_Penny/HennyPenny-Regular.ttf);
+  }
+
+h1 {
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    font-family: HennyPenny;
+    font-size: 80px;
+    color: #FFEA00;
+}
+
+h2 {
+    position: absolute;
+    font-family: HennyPenny;
+    top: 120px;
+    left: 270px;
+    color: #FFEA00;
+}
+
+.perez {
+    position: absolute;
+    top: 30px;
+    left: 800px;
+}
+
+p {
+    position: relative;
+    top: 200px;
+    color: #f8f2f2;
+    font-size: 15px;
+}
+
+.forceIndia {
+    position: relative;
+    left: 370px;
+    top: 350px;
+}
+
+.force {
+    position: relative;
+    top: 200px;
+}
+
+.racing1 {
+    position: relative;
+    top: 200px;
+}
+
+.racing2 {
+    position: relative;
+    top: 200px;
+}
+
+.redbull1 {
+    position: relative;
+    top: 200px;
+}
+
+.redbull2 {
+    position: relative;
+    top: 200px;
+}
+
+.redbull3 {
+    position: relative;
+    top: 200px;
+}
+
+.pole {
+    position: relative;
+    top: 200px;
+}
+
+.monaco {
+    position: relative;
+    top: 200px;
+}
+
+.singapure {
+    position: relative;
+    top: 200px;
+}
+
+.playlist {
+    font-family: HennyPenny;
+    font-size: 40px;
+    color: #FFEA00;
+    position: relative;
+    top: 300px;
+}
+
+.spoti {
+    position: relative;
+    top: 300px;
+}
+
+.redes {
+    position: relative;
+    top: 300px;
+    font-size: 40px;
+}
+
+.boton1 {
+    position: relative;
+    top: 300px;
+}
+
+.boton2 {
+    position: relative;
+    top: 300px;
+}
+
+.boton3 {
+    position: relative;
+    top: 300px;
+}

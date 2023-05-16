@@ -1,0 +1,85 @@
+html {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#titulo {
+    background-color: rgba(228, 180, 180, 0.692);
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(0, 116, 158);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#contenedor {
+    background-color: rgba(228, 180, 180, 0.692);
+}
+
+.carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.carrusel-fotos img {
+    background: black;
+    border: 3px solid rgb(46, 0, 30);
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.carrusel-menu {
+    display: none;
+}
+
+@media screen and (min-width:500px){
+    .carrusel-fotos {
+        overflow: hidden;
+    }
+
+    .carrusel-fotos img {
+        width: 500px;
+        height: 400px;
+    }
+    .carrusel-menu {
+        display: block;
+    }
+    .carrusel-menu img {
+        box-sizing: border-box;
+        width: 50px;
+        height: 40px;
+        border: 10px solid black;
+    }
+    .carrusel-menu img:hover {
+        border: none;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: rgb(2, 89, 89);
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+}

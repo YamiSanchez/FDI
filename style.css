@@ -1,0 +1,81 @@
+html {
+    font-size: 17px;
+    color: rgb(251, 228, 228);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img/fondo.jpg");
+    position: absolute;
+    align-content: center;
+  }
+
+  @font-face {
+    font-family: HennyPenny;
+    src: url(Henny_Penny/HennyPenny-Regular.ttf);
+  }
+
+  h1 {
+    position: relative;
+    top: -50px;
+    left: 150px;
+    font-family: HennyPenny;
+    font-size: 80px;
+  }
+
+  h3 {
+    position: relative;
+    top: -110px;
+    left: 80px;
+    font-family: HennyPenny;
+    font-size: 50px;
+  }
+
+  .boton1 {
+    position: relative;
+    top: -150px;
+    left: 10px;
+  }
+
+  .boton2 {
+    position: relative;
+    top: -500px;
+    left: 400px;
+  }
+
+  .boton3 {
+    position: relative;
+    top: -950px;
+    left: 750px;
+  }
+
+  .decoracion {
+    position: absolute;
+    top: 0px;
+    right: -400px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .lab {
+    position: relative;
+    top: -250px;
+    left: 100px;
+    font-family: HennyPenny;
+    font-size: 20px;
+  }
+
+  .personal {
+    position: relative;
+    top: -520px;
+    left: 480px;
+    font-family: HennyPenny;
+    font-size: 20px;
+  }
+
+  .grupal {
+    position: relative;
+    top: -1000px;
+    left: 800px;
+    font-family: HennyPenny;
+    font-size: 20px;
+  }
+
+  

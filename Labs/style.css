@@ -5,6 +5,9 @@ html {
     background-image: url("img/fondo.jpg");
     position: absolute;
     align-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
   }
 
   @font-face {
@@ -23,7 +26,7 @@ html {
   .lab1 {
     position: relative;
     top: -140px;
-    left: 130px;
+    left: 80px;
     font-family: HennyPenny;
     font-size: 40px;
   }
@@ -31,12 +34,13 @@ html {
   .boton1 {
     position: relative;
     top: -70px;
+    left: -50px;
   }
 
   .lab2 {
     position: relative;
     top: -620px;
-    left: 350px;
+    left: 200px;
     font-family: HennyPenny;
     font-size: 40px;
   }
@@ -44,13 +48,13 @@ html {
   .boton2 {
     position: relative;
     top: -570px;
-    left: 300px;
+    left: 150px;
   }
 
   .lab3 {
     position: relative;
     top: -1020px;
-    left: 500px;
+    left: 350px;
     font-family: HennyPenny;
     font-size: 40px;
   }
@@ -58,13 +62,13 @@ html {
   .boton3 {
     position: relative;
     top: -970px;
-    left: 450px;
+    left: 300px;
   }
 
   .lab4 {
     position: relative;
     top: -1530px;
-    left: 750px;
+    left: 550px;
     font-family: HennyPenny;
     font-size: 40px;
   }
@@ -72,5 +76,33 @@ html {
   .boton4 {
     position: relative;
     top: -1450px;
-    left: 630px;
+    left: 450px;
+  }
+
+  .lab5 {
+    position: relative;
+    top: -2000px;
+    left: 800px;
+    font-family: HennyPenny;
+    font-size: 40px;
+  }
+
+  .boton5 {
+    position: relative;
+    top: -1950px;
+    left: 710px;
+  }
+
+  .lab6 {
+    position: relative;
+    top: -2550px;
+    left: 950px;
+    font-family: HennyPenny;
+    font-size: 40px;
+  }
+
+  .boton6 {
+    position: relative;
+    top: -2500px;
+    left: 900px;
   }

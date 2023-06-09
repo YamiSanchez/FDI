@@ -1,0 +1,18 @@
+html {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#titulo {
+    background-color: rgba(228, 180, 180, 0.692);
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(0, 116, 158);
+    font-family: 'Fredericka the Great', cursive;
+}
+

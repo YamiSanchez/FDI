@@ -1,0 +1,85 @@
+html {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #6c03496a;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: rgb(0, 255, 200);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family:  'Fredericka the Great', cursive;
+  }
+  
+   .header a.titulo {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: rgb(193, 107, 233);
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .info {
+   color: #026800;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-family:  'Fredericka the Great', cursive;
+    background-color: #f1f1f19c;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6c03496a;
+    color: white;
+    text-align: center;
+  }
